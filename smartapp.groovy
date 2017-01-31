@@ -1,5 +1,5 @@
 /**
- *  UnisonHT
+ *  SmartThings REST
  *
  *  Copyright 2017 Joe Ferner
  *
@@ -14,15 +14,15 @@
  *
  */
 definition(
-    name: "UnisonHT",
-    namespace: "joeferner.unisonht",
+    name: "RESTSmartApp",
+    namespace: "joeferner.smartthingsrest",
     author: "Joe Ferner",
-    description: "UnisonHT integration",
+    description: "SmartThings REST API",
     category: "SmartThings Labs",
     iconUrl: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience.png",
     iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png",
     iconX3Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png",
-    oauth: [displayName: "UnisonHT", displayLink: ""]
+    oauth: [displayName: "SmartThings REST", displayLink: ""]
 )
 
 mappings {

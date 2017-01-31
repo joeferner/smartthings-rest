@@ -1,0 +1,26 @@
+{
+  "name": "smartthings-rest",
+  "version": "1.0.0",
+  "description": "SmartThings REST API",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeferner/smartthings-rest.git"
+  },
+  "keywords": [
+    "smartthings",
+    "rest"
+  ],
+  "author": "Joe Ferner <joe@fernsroth.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joeferner/smartthings-rest/issues"
+  },
+  "homepage": "https://github.com/joeferner/smartthings-rest#readme",
+  "dependencies": {
+    "@types/request-promise-native": "^1.0.2",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
